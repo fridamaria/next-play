@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -11,29 +10,29 @@ export default function Home() {
       </section>
       
       <section className="min-h-screen min-w-full grid grid-cols-3">
-        <div className="flex items-center justify-center" style={{background: "#A4C5E6"}}>
-          <p>1</p>
+        <div className="flex items-center justify-center bg-lake-blue">
+          <p>About</p>
         </div>
-        <div className="flex items-center justify-center" style={{background: "#F5F3F3"}}>
-          <p>2</p>
+        <div className="flex items-center justify-center bg-light-beige">
+          <p>Game</p>
         </div>
-        <div className="flex items-center justify-center" style={{background: "#F2D500"}}>
-          <p>3</p>
+        <div className="flex items-center justify-center bg-lemon-yellow">
+          <p>Weather</p>
         </div>
-        <div className="flex items-center justify-center" style={{background: "#ECE9DE"}}>
-          <p>4</p>
+        <div className="flex items-center justify-center bg-dark-beige">
+          <p>Time</p>
         </div>
-        <div className="flex items-center justify-center" style={{background: "#FBFBFB"}}>
-          <p>5</p>
+        <div className="flex items-center justify-center bg-light-white">
+          <p>Img</p>
         </div>
-        <div className="flex items-center justify-center" style={{background: "#0B52AD"}}>
-          <p>6</p>
+        <div className="flex items-center justify-center bg-japan-blue">
+          <p>Github</p>
         </div>
-        <div className="flex items-center justify-center" style={{background: "#F2D500"}}>
-          <p>7</p>
+        <div className="flex items-center justify-center bg-lemon-yellow">
+          <p>Linked</p>
         </div>
-        <div className="flex items-center justify-center col-span-2" style={{background: "#A4C5E6"}}>
-          <p>8</p>
+        <div className="flex items-center justify-center col-span-2 bg-lake-blue">
+          <p>Bye</p>
         </div>
       </section>
     </main>
