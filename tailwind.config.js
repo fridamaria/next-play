@@ -22,5 +22,7 @@ module.exports = {
       "light-white": "#FBFBFB",
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/container-queries'),
+  ],
 }
