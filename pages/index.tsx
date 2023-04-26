@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+
 export default function Home() {
   return (
     <main>
@@ -23,10 +25,10 @@ export default function Home() {
             <p>Img</p>
           </div>
           <div className="min-h-[33vh] flex items-center justify-center bg-japan-blue">
-            <p>Github</p>
+            <FaGithub size={80} className="text-dark-beige hover:scale-110"/>
           </div>
           <div className="min-h-[33vh] flex items-center justify-center bg-lemon-yellow">
-            <p>Linked</p>
+            <FaLinkedinIn size={80} className="text-japan-blue hover:scale-110"/>
           </div>
           <div className="min-h-[33vh] flex items-center justify-center col-span-2 bg-lake-blue">
             <p>Bye</p>
