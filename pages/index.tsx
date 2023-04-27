@@ -1,8 +1,11 @@
+import React from "react";
+import Layout from "@/components/layout";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main>
+    <Layout home>
       <section className="min-h-screen min-w-full flex items-center justify-center bg-dark-beige">
         <p>Playground</p>
       </section>
@@ -16,7 +19,7 @@ export default function Home() {
             <p>Game</p>
           </div>
           <div className="min-h-[33vh] flex items-center justify-center bg-lemon-yellow">
-            <p>Weather</p>
+            <Link href="/components">Components</Link>
           </div>
           <div className="min-h-[33vh] flex items-center justify-center bg-dark-beige">
             <p>Time</p>
@@ -35,6 +38,6 @@ export default function Home() {
           </div>
         </section>
       </section>
-    </main>
+    </Layout>
   )
 }
