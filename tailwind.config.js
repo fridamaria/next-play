@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require("tailwindcss/colors")
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
@@ -19,6 +21,11 @@ module.exports = {
         "lemon-yellow": "#F2D500",
         "light-beige": "#F5F3F3",
         "light-white": "#FBFBFB",
+        brand: {
+          light: colors.rose[100],
+          DEFAULT: colors.rose[500],
+          dark: colors.rose[700],
+        },
       },
     },
   },
