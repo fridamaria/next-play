@@ -24,7 +24,7 @@ module.exports = {
         brand: {
           light: colors.rose[100],
           DEFAULT: colors.rose[500],
-          dark: colors.rose[700],
+          dark: colors.rose[600],
         },
       },
     },

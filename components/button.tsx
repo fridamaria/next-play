@@ -10,7 +10,8 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode
 }
 
-// TODO: add variants icon, grouped, dropdown, input
+// TODO: add variants dropdown, input
+// Make icon and grouped pure variants taking in props
 // add color options?
 
 export default function Button({
